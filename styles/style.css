@@ -123,3 +123,35 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
+
+.lots {
+  margin: 180px 24px 0;
+}
+
+.lots__heading {
+  margin-left: 40px;
+  font-size: 40px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 27px;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.lots__look-more-link {
+  display: block;
+  width: max-content;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+  text-underline-offset: 5px;
+}
