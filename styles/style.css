@@ -278,3 +278,17 @@ body {
   width: 48px;
   height: 48px;
 }
+
+.header__link:focus-visible,
+.lots__look-more-link:focus-visible,
+.footer__menu-link:focus-visible,
+.footer__social-link:focus-visible,
+.card-link:focus-visible,
+.bet-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.bet-button:hover {
+  background-color: rgb(255 255 255 / 0.1);
+}
